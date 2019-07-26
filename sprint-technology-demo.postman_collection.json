@@ -1,0 +1,223 @@
+{
+	"id": "8e943eb1-5f79-28da-1fc7-80dbd8ee5b22",
+	"name": "sprint-technology-demo",
+	"description": "",
+	"order": [
+		"9582268a-1a4c-9213-767d-69e3455056f1",
+		"19f58c21-0b9a-9cea-72b3-4ceb2e36b6c2",
+		"c489b164-4fe1-9c22-e9ea-c2252468277d",
+		"03f4fb33-a09d-6fee-e167-bda2d6b21e2d",
+		"20f70895-250d-95c7-3239-f77f11748e6b",
+		"9a0e39aa-0276-29cf-97f5-813a37e62d5b"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1563471305881,
+	"owner": "8181791",
+	"public": false,
+	"requests": [
+		{
+			"id": "03f4fb33-a09d-6fee-e167-bda2d6b21e2d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/equipes?size=2&page=2,sort=name,desc",
+			"queryParams": [
+				{
+					"key": "size",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "page",
+					"value": "2,sort=name,desc",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564173907978,
+			"name": "equipes get  paginate",
+			"description": "",
+			"collectionId": "8e943eb1-5f79-28da-1fc7-80dbd8ee5b22",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\":\"admin\",\n\t\"password\":\"admin\",\n\t\"rememberMe\":false\n\t\n}"
+		},
+		{
+			"id": "19f58c21-0b9a-9cea-72b3-4ceb2e36b6c2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/equipes",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564173902316,
+			"name": "equipes post new equipe whith joueurs",
+			"description": "",
+			"collectionId": "8e943eb1-5f79-28da-1fc7-80dbd8ee5b22",
+			"responses": [],
+			"rawModeData": "{\r\n  \"acronym\": \"Juventus\",\r\n  \"name\": \"Juventus Football Club\",\r\n  \"budget\": 59789,\r\n  \"joueurs\": [\r\n    {\r\n      \"name\": \"Carlo Pinsoglio\",\r\n      \"position\": \"Gardiens\"\r\n    },\r\n    {\r\n      \"name\": \"Mattia Perin\",\r\n      \"position\": \"Gardiens\"\r\n    },\r\n    {\r\n      \"name\": \"Mattia De Sciglio\",\r\n      \"position\": \"Gardiens\"\r\n    },\r\n    {\r\n      \"name\": \"Giorgio Chiellini Capitaine\",\r\n      \"position\": \"Défenseurs\"\r\n    },\r\n    {\r\n      \"name\": \"Medhi Benatia\",\r\n      \"position\": \"Défenseurs\"\r\n    },\r\n    {\r\n      \"name\": \"Martín Cáceres\",\r\n      \"position\": \"Défenseurs\"\r\n    },\r\n    {\r\n      \"name\": \"Alex Sandro\",\r\n      \"position\": \"Défenseurs\"\r\n    },\r\n    {\r\n      \"name\": \"Andrea Barzagli\",\r\n      \"position\": \"Défenseurs\"\r\n    },\r\n    {\r\n      \"name\": \"Leonardo Bonucci\",\r\n      \"position\": \"Milieux de terrain\"\r\n    },\r\n    {\r\n      \"name\": \"João Cancelo\",\r\n      \"position\": \"Milieux de terrain\"\r\n    },\r\n    {\r\n      \"name\": \"Daniele Rugani\",\r\n      \"position\": \"Milieux de terrain\"\r\n    },\r\n    {\r\n      \"name\": \"Leonardo Spinazzola\",\r\n      \"position\": \"Attaquants\"\r\n    },\r\n    {\r\n      \"name\": \"Miralem Pjanić\",\r\n      \"position\": \"Attaquants\"\r\n    },\r\n    {\r\n      \"name\": \"Sami Khedira\",\r\n      \"position\": \"Attaquants\"\r\n    },\r\n    {\r\n      \"name\": \"Blaise Matuidi\",\r\n      \"position\": \"Attaquants\"\r\n    },\r\n    {\r\n      \"name\": \"Emre Can\",\r\n      \"position\": \"Attaquants\"\r\n    },\r\n    {\r\n      \"name\": \"Rodrigo Bentancur\",\r\n      \"position\": \"Attaquants\"\r\n    }\r\n  ]\r\n}"
+		},
+		{
+			"id": "20f70895-250d-95c7-3239-f77f11748e6b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/equipes?sort=name",
+			"queryParams": [
+				{
+					"key": "sort",
+					"value": "name",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564173910619,
+			"name": "equipes get  sorted",
+			"description": "",
+			"collectionId": "8e943eb1-5f79-28da-1fc7-80dbd8ee5b22",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\":\"admin\",\n\t\"password\":\"admin\",\n\t\"rememberMe\":false\n\t\n}"
+		},
+		{
+			"id": "9582268a-1a4c-9213-767d-69e3455056f1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/equipes",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564173898661,
+			"name": "equipes put update existing ",
+			"description": "",
+			"collectionId": "8e943eb1-5f79-28da-1fc7-80dbd8ee5b22",
+			"responses": [],
+			"rawModeData": "{\r\n  \"id\": 1,\r\n  \"name\": \"Industrial\",\r\n  \"acronym\": \"connect Markets Chief\",\r\n  \"budget\": 59789,\r\n  \"joueurs\": [\r\n    {\r\n      \"id\": 1,\r\n      \"name\": \"mobile Fish\",\r\n      \"position\": \"Home Loan Account Table Computer\",\r\n      \"equipeId\": null\r\n    },\r\n    {\r\n      \"id\": 2,\r\n      \"name\": \"Trace\",\r\n      \"position\": \"Savings Account alarm\",\r\n      \"equipeId\": null\r\n    }\r\n  ]\r\n}"
+		},
+		{
+			"id": "9a0e39aa-0276-29cf-97f5-813a37e62d5b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/joueurs",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564173913143,
+			"name": "joueurs get",
+			"description": "",
+			"collectionId": "8e943eb1-5f79-28da-1fc7-80dbd8ee5b22",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\":\"admin\",\n\t\"password\":\"admin\",\n\t\"rememberMe\":false\n\t\n}"
+		},
+		{
+			"id": "c489b164-4fe1-9c22-e9ea-c2252468277d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/api/equipes/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1564173904943,
+			"name": "equipes get all",
+			"description": "",
+			"collectionId": "8e943eb1-5f79-28da-1fc7-80dbd8ee5b22",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\":\"admin\",\n\t\"password\":\"admin\",\n\t\"rememberMe\":false\n\t\n}"
+		}
+	]
+}
