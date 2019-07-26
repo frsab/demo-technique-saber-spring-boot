@@ -1,9 +1,7 @@
 package com.sprint.domain;
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -20,6 +18,7 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 /**
  * A Equipe.
  */
+
 @Entity
 @Table(name = "equipe")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
